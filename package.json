@@ -48,7 +48,7 @@
     "lint-staged": "~15.4.3",
     "nx": "20.4.6",
     "path-serializer": "0.3.4",
-    "playwright": "1.52.0",
+    "playwright": "1.55.1",
     "prettier": "3.4.2",
     "prettier-plugin-packagejson": "^2.5.11",
     "tree-kill": "^1.2.2",
