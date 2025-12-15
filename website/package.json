@@ -7,6 +7,9 @@
     "dev": "rspress dev",
     "preview": "rspress preview"
   },
+  "dependencies": {
+    "remark-directive": "^4.0.0"
+  },
   "devDependencies": {
     "@rsbuild/plugin-sass": "~1.4.0",
     "@rsdoctor/rspack-plugin": "1.3.15",

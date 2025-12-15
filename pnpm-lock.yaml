@@ -1263,6 +1263,9 @@ importers:
       '@rspress/core':
         specifier: workspace:^2.0.0-rc.2
         version: link:../core
+      remark-directive:
+        specifier: ^4.0.0
+        version: 4.0.0
       remark-mdx:
         specifier: ^3.1.1
         version: 3.1.1
@@ -1700,6 +1703,10 @@ importers:
         version: 5.8.2
 
   website:
+    dependencies:
+      remark-directive:
+        specifier: ^4.0.0
+        version: 4.0.0
     devDependencies:
       '@rsbuild/plugin-sass':
         specifier: ~1.4.0

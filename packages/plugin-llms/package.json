@@ -33,6 +33,7 @@
     "reset": "rimraf ./**/node_modules"
   },
   "dependencies": {
+    "remark-directive": "^4.0.0",
     "remark-mdx": "^3.1.1",
     "remark-parse": "^11.0.0",
     "remark-stringify": "^11.0.0",

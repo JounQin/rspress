@@ -4,6 +4,7 @@ import {
   remarkLink,
 } from '@rspress/core';
 import type { Root } from 'hast';
+import remarkDirective from 'remark-directive';
 import remarkMdx from 'remark-mdx';
 import remarkParse from 'remark-parse';
 import remarkStringify from 'remark-stringify';
@@ -51,6 +52,7 @@ async function normalizeMdFile(
 ): Promise<string> {
   const compiler = unified()
     .use(remarkParse)
+    .use(remarkDirective)
     .use(isMd ? noopPlugin : remarkMdx)
     .use(remarkFileCodeBlock, {
       filepath,

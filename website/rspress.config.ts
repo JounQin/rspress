@@ -12,6 +12,7 @@ import {
   transformerNotationFocus,
   transformerNotationHighlight,
 } from '@shikijs/transformers';
+import remarkDirective from 'remark-directive';
 import { pluginGoogleAnalytics } from 'rsbuild-plugin-google-analytics';
 import { pluginOpenGraph } from 'rsbuild-plugin-open-graph';
 
@@ -37,6 +38,7 @@ export default defineConfig({
   logoText: 'Rspress',
   icon: 'https://assets.rspack.rs/rspress/rspress-logo.svg',
   markdown: {
+    remarkPlugins: [remarkDirective],
     shiki: {
       // "markdown" and "mdx" can contain any language, so it does not support lazy loading for now
       // @see https://github.com/shikijs/shiki/issues/853#issuecomment-2507237577
