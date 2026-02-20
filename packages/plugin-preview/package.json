@@ -36,7 +36,7 @@
     "@rsbuild/plugin-solid": "~1.0.5",
     "@rspress/shared": "workspace:*",
     "@rspress/theme-default": "workspace:*",
-    "lodash": "4.17.21",
+    "lodash": "4.17.23",
     "qrcode.react": "^4.2.0"
   },
   "devDependencies": {
